@@ -1,4 +1,4 @@
-#include<stdio.h>
+#include<stdio>
 #include<sys/types.h>
 #include<stdlib.h>
 #include<pthread.h>
