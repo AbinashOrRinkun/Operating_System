@@ -5,7 +5,7 @@ void clr();
 void MyFun(int time_quantum, int c)
 {
     int i,j,n,time,remain,flag=0;
-      int wait_time=0,turnaround_time=0,at[10],bt[10],rt[10];     
+      int wait_time=0,turnaround_time=0,at[10],bt[10],rt[10]; //at defines the arrival time, bt = burst time  
     printf("\n\nEnter Total Process:\t ");
     scanf("%d",&n);
     clr();   
